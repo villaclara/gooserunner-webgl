@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Goose Runner</title>
+    <title>Unity Web Player | Goose Runner</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=400 height=700 tabindex="-1" style="width: 400px; height: 700px; background: #231F20"></canvas>
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/gooserunner_webgl_release.data.gz",
-        frameworkUrl: "Build/gooserunner_webgl_release.framework.js.gz",
-        codeUrl: "Build/gooserunner_webgl_release.wasm.gz",
+        dataUrl: "Build/gooserunner_webgl_release.data",
+        frameworkUrl: "Build/gooserunner_webgl_release.framework.js",
+        codeUrl: "Build/gooserunner_webgl_release.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AVK Entertainment",
         productName: "Goose Runner",
